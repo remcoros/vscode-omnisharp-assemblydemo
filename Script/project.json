@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "ADODB": "1.0.0-*"
+    },
+    "frameworks": {
+        "net46": {
+            "frameworkAssemblies": {
+                "System.Xml": "",
+                "System.Data": "",
+                "System.Data.DataSetExtensions": "",
+                "System.Drawing": "",
+                "System.Windows.Forms": ""
+            }
+        }
+    }
+}

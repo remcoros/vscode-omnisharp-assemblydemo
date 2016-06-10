@@ -1,0 +1,32 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "ADODB/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.0"
+      }
+    }
+  },
+  "libraries": {
+    "ADODB/1.0.0": {
+      "type": "project",
+      "path": "../ADODB/project.json"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "ADODB >= 1.0.0-*"
+    ],
+    ".NETFramework,Version=v4.6": [
+      "System.Data",
+      "System.Data.DataSetExtensions",
+      "System.Drawing",
+      "System.Windows.Forms",
+      "System.Xml"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}
